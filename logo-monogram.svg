@@ -1,0 +1,106 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define clipping paths for precision -->
+  <defs>
+    <style>
+      .monogram-stroke {
+        fill: none;
+        stroke: #1a1a1a;
+        stroke-width: 8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .passage-negative {
+        fill: #ffffff;
+      }
+      .brand-text {
+        font-family: 'Didot', 'Bodoni MT', serif;
+        font-size: 32px;
+        font-weight: 300;
+        letter-spacing: 8px;
+        fill: #1a1a1a;
+        text-anchor: middle;
+      }
+    </style>
+    <!-- Gradient for subtle luxury enhancement -->
+    <linearGradient id="luxuryGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af87;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8956a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="#faf8f3"/>
+
+  <!-- ============================================
+       THE RESERVE MONOGRAM - T AND R INTERLOCK
+       ============================================ -->
+  
+  <!-- GROUP: INTERLOCKING T & R MONOGRAM -->
+  <g id="monogram" transform="translate(200, 160)">
+    
+    <!-- LETTER "T" - Left side of composition -->
+    <!-- T Top Serif (horizontal bar) -->
+    <path class="monogram-stroke" d="M -85 -120 L -25 -120" stroke="#1a1a1a" stroke-width="7"/>
+    
+    <!-- T Serif Details (subtle) -->
+    <path class="monogram-stroke" d="M -85 -118 L -85 -112 M -25 -118 L -25 -112" stroke="#1a1a1a" stroke-width="4" opacity="0.6"/>
+    
+    <!-- T Vertical Stem - LEFT portion (intersects with R) -->
+    <path class="monogram-stroke" d="M -55 -120 L -55 80" stroke="#1a1a1a" stroke-width="8"/>
+    
+    <!-- ============================================
+         HIDDEN PASSAGE - NEGATIVE SPACE EFFECT
+         The passage emerges through the shared vertical axis
+         Formed by elegant curves creating an opening
+         ============================================ -->
+    
+    <!-- LETTER "R" - Right side, interlocked with T -->
+    <!-- R Vertical Stem - RIGHT portion -->
+    <path class="monogram-stroke" d="M 45 -120 L 45 80" stroke="#1a1a1a" stroke-width="8"/>
+    
+    <!-- R Top Curve (Bowl) - elegant serif proportion -->
+    <path class="monogram-stroke" d="M 45 -120 Q 95 -120 95 -50 Q 95 -10 55 0" stroke="#1a1a1a" stroke-width="8"/>
+    
+    <!-- R Diagonal Leg -->
+    <path class="monogram-stroke" d="M 55 0 L 100 80" stroke="#1a1a1a" stroke-width="8"/>
+    
+    <!-- ============================================
+         INTERLOCK DETAIL - Where T and R meet
+         Creates the architectural passage suggestion
+         ============================================ -->
+    
+    <!-- Central Passage Opening (negative space, symmetrical) -->
+    <!-- Subtle concave curves that create the illusion of an elegant passage -->
+    <path class="passage-negative" d="M -8 -80 Q -15 -40 -12 0 Q -8 40 0 80 L 0 80 Q 8 40 12 0 Q 15 -40 8 -80 Z" fill="#faf8f3" stroke="none"/>
+    
+    <!-- Refined curves that form the passage edges -->
+    <!-- Left curve of passage (formed by T's negative space) -->
+    <path class="monogram-stroke" d="M -8 -60 Q -20 -30 -18 0 Q -20 30 -8 60" stroke="#1a1a1a" stroke-width="6" opacity="0.7"/>
+    
+    <!-- Right curve of passage (formed by R's negative space) -->
+    <path class="monogram-stroke" d="M 8 -60 Q 20 -30 18 0 Q 20 30 8 60" stroke="#1a1a1a" stroke-width="6" opacity="0.7"/>
+    
+    <!-- Vertical accent on passage center (architectural detail) -->
+    <line class="monogram-stroke" x1="0" y1="-50" x2="0" y2="50" stroke="#1a1a1a" stroke-width="2" opacity="0.4"/>
+    
+    <!-- ============================================
+         SERIF DETAILS & REFINEMENT
+         ============================================ -->
+    
+    <!-- T Bottom Serif (subtle horizontal balance) -->
+    <path class="monogram-stroke" d="M -65 75 L -45 75" stroke="#1a1a1a" stroke-width="5" opacity="0.7"/>
+    
+    <!-- R Bottom Serif -->
+    <path class="monogram-stroke" d="M 35 75 L 55 75" stroke="#1a1a1a" stroke-width="5" opacity="0.7"/>
+    
+  </g>
+  
+  <!-- ============================================
+       BRAND TEXT - "THE RESERVE"
+       ============================================ -->
+  <text x="200" y="420" class="brand-text">THE RESERVE</text>
+  
+  <!-- Decorative line under text (luxury touch) -->
+  <line x1="80" y1="445" x2="320" y2="445" stroke="#1a1a1a" stroke-width="1" opacity="0.4"/>
+  
+</svg>
